@@ -648,10 +648,14 @@ button {
   box-shadow: var(--shadow);
 }
 
-.help-item h3 {
-  font-family: var(--font-display);
-  margin: 0 0 0.35rem;
-  font-size: 1.2rem;
+.help-item a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.help-item a:hover {
+  color: var(--coral);
 }
 
 .help-item p {
